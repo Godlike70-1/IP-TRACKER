@@ -1,0 +1,7 @@
+A list of all required Python libraries that need to be installed.
+      mysql-connector-python (pip install mysql.connector) if failure on installation use --break-system-packages)
+Do the above for all those listed libraries. thank you.
+      requests
+      ipaddress
+      hashlib
+      getpass
