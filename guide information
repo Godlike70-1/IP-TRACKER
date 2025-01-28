@@ -1,0 +1,11 @@
+Installation guide:
+wget https://github.com/Godlike70-1/IP-TRACKER/blob/main/track.py
+
+Command to run after installation:
+python3 track.py
+
+Database schema
+One user can have many IP tracks, one IP can be many user's input.
+
+The tool uses md5 hashing algorithm to store password in database. Sql injection prevention is implemented so that
+user's credentials remains safe and datas doesnt get leaked. Secure coding principles is also implemented.
